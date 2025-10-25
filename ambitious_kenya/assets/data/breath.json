@@ -1,0 +1,968 @@
+{
+        "breath": [
+            {
+                "id":   "b00",
+                "name": "日",
+                "english": "SUN",
+                "color": {  "r": 248,   "g": 181,  "b": 0  },
+                "user": [
+                    {   "id":   "h00",  "name": "継国縁壱",   "english":   "Tsugikuni Yoriichi",    "master": "",   "icon": "assets/img/yoriichi.png",  "color": {  "r": 221,   "g": 137,  "b": 137  }   }
+                ],
+                "arts": [
+                    {
+                        "form": "壱ノ型",
+                        "name": "円舞",
+                        "call": "えんぶ",
+                        "english":  "enbu"
+                    },
+                    {
+                        "form": "弐ノ型",
+                        "name": "碧羅の天",
+                        "call": "へきらのてん",
+                        "english":  "hekira no ten"
+                    },
+                    {
+                        "form": "参ノ型",
+                        "name": "烈日紅鏡",
+                        "call": "れつじつこうきょう",
+                        "english":  "retujitsu koukyou"
+                    },
+                    {
+                        "form": "肆ノ型",
+                        "name": "灼骨炎陽",
+                        "call": "しゃっこつえんよう",
+                        "english":  "syakotsu ennyou"
+                    },
+                    {
+                        "form": "伍ノ型",
+                        "name": "陽華突",
+                        "call": "ようかとつ",
+                        "english":  "youkatotsu"
+                    },
+                    {
+                        "form": "陸ノ型",
+                        "name": "日暈の龍・頭舞い",
+                        "call": "にちうんのりゅう かぶりまい",
+                        "english":  "nichiun no ryu kaburimai"
+                    },
+                    {
+                        "form": "漆ノ型",
+                        "name": "斜陽転身",
+                        "call": "しゃようてんしん",
+                        "english":  "syayou tenshin"
+                    },
+                    {
+                        "form": "捌ノ型",
+                        "name": "飛輪陽炎",
+                        "call": "ひりんかげろう",
+                        "english":  "hirin kagero"
+                    },
+                    {
+                        "form": "玖ノ型",
+                        "name": "輝輝恩光",
+                        "call": "ききおんこう",
+                        "english":  "kiki onko"
+                    },
+                    {
+                        "form": "拾ノ型",
+                        "name": "火車",
+                        "call": "かしゃ",
+                        "english":  "kasya"
+                    },
+                    {
+                        "form": "拾壱ノ型",
+                        "name": "幻日虹",
+                        "call": "げんにちこう",
+                        "english":  "gennitiko"
+                    },
+                    {
+                        "form": "拾弐ノ型",
+                        "name": "炎舞",
+                        "call": "えんぶ",
+                        "english":  "enbu"
+                    },
+                    {
+                        "form": "拾参ノ型",
+                        "name": "",
+                        "call": "",
+                        "english":  ""
+                    }
+                ],
+                "relation": ["b00","b000","b01","b02","b03","b04","b05","b06"]
+            },
+            {
+                "id":   "b000",
+                "name": "ヒノカミ神楽",
+                "english": "SUN[KAGURA]",
+                "color": {  "r": 248,   "g": 181,  "b": 0  },
+                "user": [
+                    {   "id":   "h01",  "name": "竈門炭治郎",  "english":  "Tanjiro Kamado",    "master": "h02,h06", "icon": "assets/img/tanjiro.png",  "color": {  "r": 36,   "g": 127,  "b": 36  }    },
+                    {   "id":   "h02",  "name": "竈門炭十郎",  "english":  "Tanjyuro Kamado",    "master": "h01", "icon": "assets/img/tanjuro.png",  "color": {  "r": 209,   "g": 201,  "b": 125  }   },
+                    {   "id":   "h03",  "name": "竈門炭吉",   "english":   "Sumiyoshi Kamado",    "master": "h00", "icon": "assets/img/sumiyoshi.png",  "color": {  "r": 36,   "g": 127,  "b": 36  }   }
+                ],
+                "arts": [
+                    {
+                        "form": "壱ノ型",
+                        "name": "円舞",
+                        "call": "えんぶ",
+                        "english":  "enbu"
+                    },
+                    {
+                        "form": "弐ノ型",
+                        "name": "碧羅の天",
+                        "call": "へきらのてん",
+                        "english":  "hekira no ten"
+                    },
+                    {
+                        "form": "参ノ型",
+                        "name": "烈日紅鏡",
+                        "call": "れつじつこうきょう",
+                        "english":  "retujitsu koukyou"
+                    },
+                    {
+                        "form": "肆ノ型",
+                        "name": "灼骨炎陽",
+                        "call": "しゃっこつえんよう",
+                        "english":  "syakotsu ennyou"
+                    },
+                    {
+                        "form": "伍ノ型",
+                        "name": "陽華突",
+                        "call": "ようかとつ",
+                        "english":  "youkatotsu"
+                    },
+                    {
+                        "form": "陸ノ型",
+                        "name": "日暈の龍・頭舞い",
+                        "call": "にちうんのりゅう かぶりまい",
+                        "english":  "nichiun no ryu kaburimai"
+                    },
+                    {
+                        "form": "漆ノ型",
+                        "name": "斜陽転身",
+                        "call": "しゃようてんしん",
+                        "english":  "syayou tenshin"
+                    },
+                    {
+                        "form": "捌ノ型",
+                        "name": "飛輪陽炎",
+                        "call": "ひりんかげろう",
+                        "english":  "hirin kagero"
+                    },
+                    {
+                        "form": "玖ノ型",
+                        "name": "輝輝恩光",
+                        "call": "ききおんこう",
+                        "english":  "kiki onko"
+                    },
+                    {
+                        "form": "拾ノ型",
+                        "name": "火車",
+                        "call": "かしゃ",
+                        "english":  "kasya"
+                    },
+                    {
+                        "form": "拾壱ノ型",
+                        "name": "幻日虹",
+                        "call": "げんにちこう",
+                        "english":  "gennitiko"
+                    },
+                    {
+                        "form": "拾弐ノ型",
+                        "name": "炎舞",
+                        "call": "えんぶ",
+                        "english":  "enbu"
+                    },
+                    {
+                        "form": "拾参ノ型",
+                        "name": "",
+                        "call": "",
+                        "english":  ""
+                    }
+                ],
+                "relation": ["b00"]
+            },
+            {
+                "id":   "b01",
+                "name": "水",
+                "english": "WATER",
+                "color": {  "r": 30,    "g": 80,    "b": 162  },
+                "user": [
+                    {   "id":   "h05",  "name": "冨岡義勇",   "english":   "Giyu Tomioka",    "master": "", "icon": "assets/img/giyu.png",  "color": {  "r": 209,   "g": 201,  "b": 125  }   },
+                    {   "id":   "h102",     "name":  "村田", "english":  "Murata",    "master": "",   "icon": "assets/img/murata.png",  "color": {  "r": 130,   "g": 130,  "b": 130  }    },
+                    
+                    {   "id":   "h04",  "name": "竈門炭治郎" , "english": "Tanjiro Kamado",    "master": "h06", "icon": "assets/img/tanjiro.png",  "color": {  "r": 36,   "g": 127,  "b": 36  }  },
+                    {   "id":   "h06",  "name": "鱗滝左近次",  "english":  "Sakonji Urokodaki",    "master": "", "icon": "assets/img/sakonji.png",  "color": {  "r": 214,   "g": 84,  "b": 84  }   },
+                    {   "id":   "h07",     "name":  "真菰", "english":  "Makomo",    "master": "h06", "icon": "assets/img/makomo.png",  "color": {  "r": 255,   "g": 126,  "b": 237  }    },
+                    {   "id":   "h08",     "name":  "錆兎", "english":  "Sabito",    "master": "h06", "icon": "assets/img/sabito.png",  "color": {  "r": 246,   "g": 179,  "b": 119  }    }
+                ],
+                "arts": [
+                    {
+                        "form": "壱ノ型",
+                        "name": "水面斬り",
+                        "call": "みなもぎり",
+                        "english":  "minamo giri"
+                    },
+                    {
+                        "form": "弐ノ型",
+                        "name": "水車",
+                        "call": "みずぐるま",
+                        "english":  "mizu guruma"
+                    },
+                    {
+                        "form": "参ノ型",
+                        "name": "流流舞い",
+                        "call": "りゅうりゅうまい",
+                        "english":  "ryuryu mai"
+                    },
+                    {
+                        "form": "肆ノ型",
+                        "name": "打ち潮",
+                        "call": "うちしお",
+                        "english":  "uchishio"
+                    },
+                    {
+                        "form": "伍ノ型",
+                        "name": "干天の慈雨",
+                        "call": "かんてんのじう",
+                        "english":  "kanten no jiu"
+                    },
+                    {
+                        "form": "陸ノ型",
+                        "name": "ねじれ渦",
+                        "call": "ねじれうず",
+                        "english":  "nejireuzu"
+                    },
+                    {
+                        "form": "漆ノ型",
+                        "name": "雫波紋突き",
+                        "call": "しずくはもんづき",
+                        "english":  "shizuku hamon zuki"
+                    },
+                    {
+                        "form": "捌ノ型",
+                        "name": "滝壺",
+                        "call": "たきつぼ",
+                        "english":  "takitsubo"
+                    },
+                    {
+                        "form": "玖ノ型",
+                        "name": "水流飛沫・乱",
+                        "call": "すいりゅうしぶき らん",
+                        "english":  "suiryushibuki ran"
+                    },
+                    {
+                        "form": "拾ノ型",
+                        "name": "生生流転",
+                        "call": "せいせいるてん",
+                        "english":  "seisei ruten"
+                    },
+                    {
+                        "form": "拾壱ノ型",
+                        "name": "凪",
+                        "call": "なぎ",
+                        "english":  "nagi"
+                    }
+
+                ],
+                "relation": ["b00","b0101","b0102"]
+            },
+            {
+                "id":   "b02",
+                "name": "炎",
+                "english": "FLAME",
+                "color": {  "r": 186,   "g": 38,   "b": 54  },
+                "user": [
+                    {   "id":   "h10",     "name":  "煉獄槇寿郎",  "english":   "Shinjyuro Rengoku",    "master": "",    "icon": "assets/img/shinjuro.png",  "color": {  "r": 186,   "g": 186,  "b": 186  }    },
+                    {   "id":   "h09",     "name":  "煉獄杏寿郎",  "english":   "Kyojyuro Rengoku",    "master": "h10",   "icon": "assets/img/kyojuro.png",  "color": {  "r": 214,   "g": 84,  "b": 84  }    }
+                ],
+                "arts": [
+                    {
+                        "form": "壱ノ型",
+                        "name": "不知火",
+                        "call": "しらぬい",
+                        "english":  "shiranui"
+                    },
+                    {
+                        "form": "弐ノ型",
+                        "name": "昇り炎天",
+                        "call": "のぼりえんてん",
+                        "english":  "nobori enten"
+                    },
+                    {
+                        "form": "参ノ型",
+                        "name": "",
+                        "call": "",
+                        "english":  ""
+                    },
+                    {
+                        "form": "肆ノ型",
+                        "name": "盛炎のうねり",
+                        "call": "せいえんのうねり",
+                        "english":  "seien no uneri"
+                    },
+                    {
+                        "form": "伍ノ型",
+                        "name": "炎虎",
+                        "call": "えんこ",
+                        "english":  "enko"
+                    },
+                    {
+                        "form": "陸ノ型",
+                        "name": "",
+                        "call": "",
+                        "english":  ""
+                    },
+                    {
+                        "form": "漆ノ型",
+                        "name": "",
+                        "call": "",
+                        "english":  ""
+                    },
+                    {
+                        "form": "捌ノ型",
+                        "name": "",
+                        "call": "",
+                        "english":  ""
+                    },
+                    {
+                        "form": "玖ノ型",
+                        "name": "煉獄",
+                        "call": "れんごく",
+                        "english":  "rengoku"
+                    }
+
+                ],
+                "relation": ["b00","b0201"]
+            },
+            {
+                "id":   "b03",
+                "name": "雷",
+                "english": "THUNDER",
+                "color": {  "r": 254,   "g": 242,  "b": 99  },
+                "user": [
+                    {   "id":   "h11",     "name":  "我妻善逸",   "english":    "Zenitsu Agatsuma",    "master": "h13", "icon": "assets/img/zenitsu.png",  "color": {  "r": 209,   "g": 201,  "b": 125  }    },
+                    {   "id":   "h13",     "name":  "桑島慈悟郎",  "english":   "Jigoro Kuwajima",    "master": "",  "icon": "assets/img/jigoro.png",  "color": {  "r": 199,   "g": 169,  "b": 151  }    },
+                    {   "id":   "h12",     "name":  "獪岳", "english":  "Kaigaku",    "master": "h13",    "icon": "assets/img/kaigaku.png",  "color": {  "r": 130,   "g": 130,  "b": 130  }    }
+                ],
+                "arts": [
+                    {
+                        "form": "壱ノ型",
+                        "name": "霹靂一閃",
+                        "call": "へきれきいっせん",
+                        "english":  "hekireki issen"
+                    },
+                    {
+                        "form": "弐ノ型",
+                        "name": "稲魂",
+                        "call": "いなだま",
+                        "english":  "inadama"
+                    },
+                    {
+                        "form": "参ノ型",
+                        "name": "聚蚊成雷",
+                        "call": "しゅうぶんせいらい",
+                        "english":  "syuubun seirai"
+                    },
+                    {
+                        "form": "肆ノ型",
+                        "name": "遠雷",
+                        "call": "えんらい",
+                        "english":  "enrai"
+                    },
+                    {
+                        "form": "伍ノ型",
+                        "name": "熱界雷",
+                        "call": "ねつかいらい",
+                        "english":  "netsukairai"
+                    },
+                    {
+                        "form": "陸ノ型",
+                        "name": "電轟雷轟",
+                        "call": "でんごうらいごう",
+                        "english":  "dengo raigo"
+                    },
+                    {
+                        "form": "漆ノ型",
+                        "name": "火雷神",
+                        "call": "ほのいかづちのかみ",
+                        "english":  "honoikazuchi no kami"
+                    }
+                ],
+                "relation": ["b00","b0401"]
+            },
+            {
+                "id":   "b04",
+                "name": "風",
+                "english": "WIND",
+                "color": {  "r": 126,   "g": 190,  "b": 165  },
+                "user": [
+                    {   "id":   "h14",     "name":  "不死川実弥",  "english":   "Sanemi Shinazugawa",    "master": "",   "icon": "assets/img/sanemi.png",  "color": {  "r": 199,   "g": 169,  "b": 151  }    },
+                    {   "id":   "h101",     "name":  "粂野匡近",  "english":   "Masachika Kuwano",    "master": "", "icon": "assets/img/masachika.png",  "color": {  "r": 130,   "g": 130,  "b": 130  }    }
+                ],
+                "arts": [
+                    {
+                        "form": "壱ノ型",
+                        "name": "塵旋風・削ぎ",
+                        "call": "じんせんぷう そぎ",
+                        "english":  "jinsenpu sobi"
+                    },
+                    {
+                        "form": "弐ノ型",
+                        "name": "爪々・科戸風",
+                        "call": "そうそう しなとかぜ",
+                        "english":  "sousou shinatokaze"
+                    },
+                    {
+                        "form": "参ノ型",
+                        "name": "晴嵐風樹",
+                        "call": "せいらんふうじゅ",
+                        "english":  "seiran hujyu"
+                    },
+                    {
+                        "form": "肆ノ型",
+                        "name": "昇上砂塵嵐",
+                        "call": "しょうじょうさじんらん",
+                        "english":  "jousyou sajinran"
+                    },
+                    {
+                        "form": "伍ノ型",
+                        "name": "木枯らし颪",
+                        "call": "こがらしおろし",
+                        "english":  "kogarashi oroshi"
+                    },
+                    {
+                        "form": "陸ノ型",
+                        "name": "黒風烟嵐",
+                        "call": "こくふうえんらん",
+                        "english":  "kokuhu enran"
+                    },
+                    {
+                        "form": "漆ノ型",
+                        "name": "勁風・天狗風",
+                        "call": "けいふう てんぐかぜ",
+                        "english":  "keihu tengukaze"
+                    },
+                    {
+                        "form": "捌ノ型",
+                        "name": "初烈風斬り",
+                        "call": "しょれつかざきり",
+                        "english":  "syoretsu kazekiri"
+                    },
+                    {
+                        "form": "玖ノ型",
+                        "name": "韋駄天台風",
+                        "call": "いだてんたいふう",
+                        "english":  "idaten taihu"
+                    }
+                ],
+                "relation": ["b00","b0301","b0302"]
+            },
+            {
+                "id":   "b05",
+                "name": "岩",
+                "english": "ROCK",
+                "color": {  "r": 82,    "g": 78,    "b": 77  },
+                "user": [
+                    {   "id":   "h15",     "name":  "悲鳴嶼行冥",  "english":   "Gyomei Himajima",    "master": "",  "icon": "assets/img/gyomei.png",  "color": {  "r": 142,   "g": 182,  "b": 141  }    }
+                ],
+                "arts": [
+                    {
+                        "form": "壱ノ型",
+                        "name": "蛇紋岩・双極",
+                        "call": "じゃもんがん そうきょく",
+                        "english":  "jamongan sogyoku"
+                    },
+                    {
+                        "form": "弐ノ型",
+                        "name": "天面砕き",
+                        "call": "てんめんくだき",
+                        "english":  "tenmen kudaki"
+                    },
+                    {
+                        "form": "参ノ型",
+                        "name": "岩軀の膚",
+                        "call": "がんくのはだえ",
+                        "english":  "ganku no hadae"
+                    },
+                    {
+                        "form": "肆ノ型",
+                        "name": "流紋岩・速征",
+                        "call": "りゅうもんがん そくせい",
+                        "english":  "tyuumongan sokusei"
+                    },
+                    {
+                        "form": "伍ノ型",
+                        "name": "瓦輪刑部",
+                        "call": "がりんぎょうぶ",
+                        "english":  "garingyoubu"
+                    }
+
+
+                ],
+                "relation": ["b00"]
+            },
+            {
+                "id":   "b0101",
+                "name": "花",
+                "english": "FLOWER",
+                "color": {  "r": 231,   "g": 96,   "b": 158  },
+                "user": [
+                    {   "id":   "h17",     "name":  "栗花落カナヲ", "english":  "Kanao Tsuyuri",    "master": "h16", "icon": "assets/img/kanao.png",  "color": {  "r": 149,   "g": 81,  "b": 163  }    },
+                    {   "id":   "h16",     "name":  "胡蝶カナエ",  "english":   "Kanae Kocho",    "master": "",  "icon": "assets/img/kanae.png",  "color": {  "r": 195,   "g": 233,  "b": 134  }    }
+                ],
+                "arts": [
+                    {
+                        "form": "壱ノ型",
+                        "name": "",
+                        "call": "",
+                        "english":  ""
+                    },
+                    {
+                        "form": "弐ノ型",
+                        "name": "御影梅",
+                        "call": "みかげうめ",
+                        "english":  "mikage ume"
+                    },
+                    {
+                        "form": "参ノ型",
+                        "name": "",
+                        "call": "",
+                        "english":  ""
+                    },
+                    {
+                        "form": "肆ノ型",
+                        "name": "紅花衣",
+                        "call": "べにはなごろも",
+                        "english":  "benihanagoromo"
+                    },
+                    {
+                        "form": "伍ノ型",
+                        "name": "徒の芍薬",
+                        "call": "あだのしゃくやく",
+                        "english":  "ada no syakuyaku"
+                    },
+                    {
+                        "form": "陸ノ型",
+                        "name": "渦桃",
+                        "call": "うずもも",
+                        "english":  "uzumomo"
+                    },
+                    {
+                        "form": "終ノ型",
+                        "name": "彼岸朱眼",
+                        "call": "ついのかた ひがんしゅがん",
+                        "english":  "higan syugan"
+                    }
+                ],
+                "relation": ["b01","b010101"]
+            },
+            {
+                "id":   "b010101",
+                "name": "蟲",
+                "english": "BUG",
+                "color": {  "r": 58,    "g": 91,    "b": 82  },
+                "user": [
+                    {   "id":   "h18",     "name":  "胡蝶しのぶ",  "english":   "Shinobu Kocho",    "master": "h16", "icon": "assets/img/shinobu.png",  "color": {  "r": 149,   "g": 81,  "b": 163  }    }
+                ],
+                "arts": [
+                    {
+                        "form": "蝶ノ舞",
+                        "name": "\"戯れ\"",
+                        "call": "ちょうのまい たわむれ",
+                        "english":  "tawamure"
+                    },
+                    {
+                        "form": "蜂牙ノ舞",
+                        "name": "\"真靡き\"",
+                        "call": "ほうがのまい まなびき",
+                        "english":  "manabiki"
+                    },
+                    {
+                        "form": "蜻蛉ノ舞",
+                        "name": "\"複眼六角\"",
+                        "call": "せいれいのまい ふくがんろっかく",
+                        "english":  "hukugan rokkaku"
+                    },
+                    {
+                        "form": "蜈蚣ノ舞",
+                        "name": "\"百足蛇腹\"",
+                        "call": "ごこうのまい ひゃくそくじゃばら",
+                        "english":  "haykusoku jabara"
+                    }
+                ],
+                "relation": ["b0101"]
+            },
+            {
+                "id":   "b0102",
+                "name": "蛇",
+                "english": "SNAKE",
+                "color": {  "r": 73,    "g": 55,    "b": 89  },
+                "user": [
+                    {   "id":   "h19",     "name":  "伊黒小芭内",  "english":   "Obanai Iguro",    "master": "", "icon": "assets/img/obanai.png",  "color": {  "r": 209,   "g": 201,  "b": 125  }    }
+                ],
+                "arts": [
+                    {
+                        "form": "壱ノ型",
+                        "name": "委蛇斬り",
+                        "call": "いだぎり",
+                        "english":  "idagiri"
+                    },
+                    {
+                        "form": "弐ノ型",
+                        "name": "狭頭の毒牙",
+                        "call": "きょうずのどくが",
+                        "english":  "kyouzu no dokuga"
+                    },
+                    {
+                        "form": "参ノ型",
+                        "name": "塒締め",
+                        "call": "とぐろじめ",
+                        "english":  "dokurojime"
+                    },
+                    {
+                        "form": "肆ノ型",
+                        "name": "頸蛇双生",
+                        "call": "けいじゃそうせい",
+                        "english":  "keijasousei"
+                    },
+                    {
+                        "form": "伍ノ型",
+                        "name": "蜿蜿長蛇",
+                        "call": "えんえんちょうだ",
+                        "english":  "enen choda"
+                    }
+
+                ],
+                "relation": ["b01"]
+            },
+            {
+                "id":   "b0201",
+                "name": "恋",
+                "english": "LOVE",
+                "color": {  "r": 244,   "g": 179,  "b": 194  },
+                "user": [
+                    {   "id":   "h20",     "name":  "甘露寺蜜璃",  "english":   "Mitsuri Kanroji",    "master": "h09",   "icon": "assets/img/mitsuri.png",  "color": {  "r": 255,   "g": 126,  "b": 237  }    }
+                ],
+                "arts": [
+                    {
+                        "form": "壱ノ型",
+                        "name": "初恋のわななき",
+                        "call": "はつこいのわななき",
+                        "english":  "hatsukoi no wananaki"
+                    },
+                    {
+                        "form": "弐ノ型",
+                        "name": "懊悩巡る恋",
+                        "call": "おうのうめぐるこい",
+                        "english":  "ounoumeguru koi"
+                    },
+                    {
+                        "form": "参ノ型",
+                        "name": "恋猫しぐれ",
+                        "call": "こいねこしぐれ",
+                        "english":  "koinekoshigure"
+                    },
+                    {
+                        "form": "肆ノ型",
+                        "name": "",
+                        "call": "",
+                        "english":  ""
+                    },
+                    {
+                        "form": "伍ノ型",
+                        "name": "揺らめく恋情・乱れ爪",
+                        "call": "ゆらめくれんじょう みだれづめ",
+                        "english":  "yurameku renjo midaredume"
+                    },
+                    {
+                        "form": "陸ノ型",
+                        "name": "猫足恋風",
+                        "call": "ねこあしこいかぜ",
+                        "english":  "nekoashi koikaze"
+                    }
+
+                ],
+                "relation": ["b02"]
+            },
+            {
+                "id":   "b0301",
+                "name": "獣",
+                "english": "BEAST",
+                "color": {  "r": 159,   "g": 160,  "b": 160  },
+                "user": [
+                    {   "id":   "h21",     "name":  "嘴平伊之助",  "english":   "Inosuke Hashibira",    "master": "",    "icon": "assets/img/inosuke.png",  "color": {  "r": 199,   "g": 169,  "b": 151  }    }
+                ],
+                "arts": [
+                    {
+                        "form": "壱ノ型",
+                        "name": "穿ち抜き",
+                        "call": "いちのきば うがちぬき",
+                        "english":  "ugachi nuki"
+                    },
+                    {
+                        "form": "弐ノ型",
+                        "name": "切り裂き",
+                        "call": "にのきば きりさき",
+                        "english":  "kirisaki"
+                    },
+                    {
+                        "form": "参ノ型",
+                        "name": "喰い裂き",
+                        "call": "さんのきば くいざき",
+                        "english":  "kuizaki"
+                    },
+                    {
+                        "form": "肆ノ型",
+                        "name": "切細裂き",
+                        "call": "しのきば きりこまざき",
+                        "english":  "kirikomazaki"
+                    },
+                    {
+                        "form": "伍ノ型",
+                        "name": "狂い裂き",
+                        "call": "ごのきば くるいざき",
+                        "english":  "kuruizaki"
+                    },
+                    {
+                        "form": "陸ノ型",
+                        "name": "乱杭咬み",
+                        "call": "ろくのきば らんぐいがみ",
+                        "english":  "ranguigami"
+                    },
+                    {
+                        "form": "漆ノ型",
+                        "name": "空間識覚",
+                        "call": "しちのかた くうかんしきかく",
+                        "english":  "kuukan shikikaku"
+                    },
+                    {
+                        "form": "捌ノ型",
+                        "name": "爆裂猛進",
+                        "call": "はちのかた ばくれつもうしん",
+                        "english":  "bakuretsu mousin"
+                    },
+                    {
+                        "form": "玖ノ型",
+                        "name": "伸・うねり裂き",
+                        "call": "くのきば しん うねりざき",
+                        "english":  "shin unerizaki"
+                    },
+                    {
+                        "form": "拾ノ型",
+                        "name": "円転旋牙",
+                        "call": "じゅうのきば えんてんせんが",
+                        "english":  "enten senga"
+                    }
+                ],
+                "relation": ["b04"]
+            },
+            {
+                "id":   "b0302",
+                "name": "霞",
+                "english": "HAZE",
+                "color": {  "r": 192,   "g": 198,  "b": 201  },
+                "user": [
+                    {   "id":   "h22",     "name":  "時透無一郎",  "english":   "Muichiro Tokito",    "master": "",  "icon": "assets/img/muichiro.png",  "color": {  "r": 160,   "g": 230,  "b": 237  }    }
+                ],
+                "arts": [
+                    {
+                        "form": "壱ノ型",
+                        "name": "垂天遠霞",
+                        "call": "すいてんとおがすみ",
+                        "english":  "suitentoogasumi"
+                    },
+                    {
+                        "form": "弐ノ型",
+                        "name": "八重霞",
+                        "call": "やえかすみ",
+                        "english":  "yaegasumi"
+                    },
+                    {
+                        "form": "参ノ型",
+                        "name": "霞散の飛沫",
+                        "call": "かさんのしぶき",
+                        "english":  "kasan no shibuki"
+                    },
+                    {
+                        "form": "肆ノ型",
+                        "name": "移流斬り",
+                        "call": "いりゅうぎり",
+                        "english":  "iryugiri"
+                    },
+                    {
+                        "form": "伍ノ型",
+                        "name": "霞雲の海",
+                        "call": "かうんのうみ",
+                        "english":  "kaun no umi"
+                    },
+                    {
+                        "form": "陸ノ型",
+                        "name": "月の霞消",
+                        "call": "つきのかしょう",
+                        "english":  " tsuki no kasyo"
+                    },
+                    {
+                        "form": "漆ノ型",
+                        "name": "朧",
+                        "call": "おぼろ",
+                        "english":  "oboro"
+                    }
+
+                ],
+                "relation": ["b04"]
+            },
+            {
+                "id":   "b0401",
+                "name": "音",
+                "english": "SOUND",
+                "color": {  "r": 234,   "g": 85,   "b": 6  },
+                "user": [
+                    {   "id":   "h23",     "name":  "宇髄天元",   "english":    "Tengen Uzui",    "master": "", "icon": "assets/img/tengen.png",  "color": {  "r": 214,   "g": 84,  "b": 84  }    }
+                ],
+                "arts": [
+                    {
+                        "form": "壱ノ型",
+                        "name": "轟",
+                        "call": "とどろき",
+                        "english":  "todoroki"
+                    },
+                    {
+                        "form": "弐ノ型",
+                        "name": "",
+                        "call": "",
+                        "english":  ""
+                    },
+                    {
+                        "form": "参ノ型",
+                        "name": "",
+                        "call": "",
+                        "english":  ""
+                    },
+                    {
+                        "form": "肆ノ型",
+                        "name": "響斬無間",
+                        "call": "きょうざんむけん",
+                        "english":  "kyouzan muken"
+                    },
+                    {
+                        "form": "伍ノ型",
+                        "name": "鳴弦奏々",
+                        "call": "めいげんそうそう",
+                        "english":  "meigen sousou"
+                    }
+
+                ],
+                "relation": ["b03"]
+            },
+            {
+                "id":   "b06",
+                "name": "月",
+                "english": "MOON",
+                "color": {  "r": 51,    "g": 51,    "b": 51  },
+                "user": [
+                    {   "id":   "h24",     "name":  "黒死牟 (継国巌勝)", "english":  "MichiKatsu Tsugikuni :Kokushibo",    "master": "h00",    "icon": "assets/img/kokushibo.png", "iconSub": "assets/img/kokushibo.png",  "color": {  "r": 149,   "g": 81,  "b": 163  }    }
+                ],
+                "arts": [
+                    {
+                        "form": "壱ノ型",
+                        "name": "闇月・宵の宮",
+                        "call": "やみづき よいのみや",
+                        "english":  "yamiduki yoinoyami"
+                    },
+                    {
+                        "form": "弐ノ型",
+                        "name": "珠華ノ弄月",
+                        "call": "しゅかのろうげつ",
+                        "english":  "syuka no rougetsu"
+                    },
+                    {
+                        "form": "参ノ型",
+                        "name": "厭忌月・銷り",
+                        "call": "えんきづき つがり",
+                        "english":  "enkiduki tugari"
+                    },
+                    {
+                        "form": "肆ノ型",
+                        "name": "",
+                        "call": "",
+                        "english":  ""
+                    },
+                    {
+                        "form": "伍ノ型",
+                        "name": "月魄災渦",
+                        "call": "げっぱくさいか",
+                        "english":  "geppaku saigka"
+                    },
+                    {
+                        "form": "陸ノ型",
+                        "name": "常夜孤月・無間",
+                        "call": "とこよこげつ むけん",
+                        "english":  "tokoyokogetu muken"
+                    },
+                    {
+                        "form": "漆ノ型",
+                        "name": "厄鏡・月映え",
+                        "call": "やっきょう づきばえ",
+                        "english":  "yakkyou dukibae"
+                    },
+                    {
+                        "form": "捌ノ型",
+                        "name": "月龍輪尾",
+                        "call": "げつりゅうりんび",
+                        "english":  "geturyu rinpi"
+                    },
+                    {
+                        "form": "玖ノ型",
+                        "name": "降り月・連面",
+                        "call": "くだりづき れんめん",
+                        "english":  ""
+                    },
+                    {
+                        "form": "拾ノ型",
+                        "name": "穿面斬・籮月",
+                        "call": "せんめんざん らげつ",
+                        "english":  "senmenzan ragetu"
+                    },
+                    {
+                        "form": "拾壱ノ型",
+                        "name": "",
+                        "call": "",
+                        "english":  ""
+                    },
+                    {
+                        "form": "拾弐ノ型",
+                        "name": "",
+                        "call": "",
+                        "english":  ""
+                    },
+                    {
+                        "form": "拾参ノ型",
+                        "name": "",
+                        "call": "",
+                        "english":  ""
+                    },
+                    {
+                        "form": "拾肆ノ型",
+                        "name": "兇変・天満繊月",
+                        "call": "きょうへん てんまんせんげつ",
+                        "english":  "kyouhen tenmansengetu"
+                    },
+                    {
+                        "form": "拾伍ノ型",
+                        "name": "",
+                        "call": "",
+                        "english":  ""
+                    },
+                    {
+                        "form": "拾肆ノ型",
+                        "name": "月虹・片割れ月",
+                        "call": "げっこう かたわれづき",
+                        "english":  "gekko katawareduki"
+                    }
+
+                ],
+                "relation": ["b00"]
+            }
+        ]
+    }

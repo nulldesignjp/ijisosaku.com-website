@@ -1,0 +1,13 @@
+# indexの優先度
+DirectoryIndex index.html index.htm index.php
+
+# HTTPSにリダイレクト
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+
+# wwwをwwwなしにリダイレクト
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(www.ijisosaku\.com)(:80)?
+RewriteRule ^(.*) http://ijisosaku.com/$1 [R=301,L]
+
